@@ -60,4 +60,5 @@ _These evaluation metrics are shown in the app on an unseen 20% test set, reflec
 
 ## App Screenshot
 
-![Screenshot of the California House Price Predictor Streamlit App](screenshot1.png)(screenshot2.png)
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
