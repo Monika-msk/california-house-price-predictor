@@ -51,23 +51,13 @@ This project delivers an interactive, data-driven web application for predicting
 
 | Metric                       | Description                                                                                 | Interpretation               |
 |------------------------------|--------------------------------------------------------------------------------------------|------------------------------|
-| **MAE** (Mean Absolute Error)| Avg. absolute difference between predicted and actual values (in $)                        | Lower = more accurate        |
-| **MSE** (Mean Squared Error) | Avg. of squared errors (in $²), penalizes large errors                                    | Lower = better               |
-| **RMSE** (Root Mean Squared Error) | Square root of MSE, direct $ interpretation                                         | Lower = better               |
+| **MAE** (Mean Absolute Error)| Avg. absolute difference between predicted and actual values                         | Lower = more accurate        |
+| **MSE** (Mean Squared Error) | Avg. of squared errors , penalizes large errors                                    | Lower = better               |
+| **RMSE** (Root Mean Squared Error) | Square root of MSE, direct  interpretation                                         | Lower = better               |
 | **R²** (Coefficient of Determination) | Proportion of variance explained by the model; 1 = perfect, 0 = naive mean     | Closer to 1 = better fit     |
 
 _These evaluation metrics are shown in the app on an unseen 20% test set, reflecting honest predictive power._
 
 ## App Screenshot
 
-*(Save your running app’s screenshot as `screenshot.png` in your project folder and it will display below!)*
-
-![Screenshot of the California House Price Predictor Streamlit App Deliverables
-
-- `app.py` &mdash; Streamlit application (main user interface)
-- `train_rf.py` &mdash; (optional) Model training script utilizing GridSearchCV
-- Model/scaler files: `linreg_model.joblib`, `rf_model.joblib`, `scaler.joblib`, `rf_importances.npy`, `background_scaled.npy`
-- `requirements.txt` &mdash; Python dependencies
-- `README.md` &mdash; Project documentation (this file)
-- `(Optional)` Any additional documentation (e.g., `docs.pdf`), if required
-
+![Screenshot of the California House Price Predictor Streamlit App](screenshot1.png)(screenshot2.png)
