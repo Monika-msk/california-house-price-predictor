@@ -1,0 +1,11 @@
+[theme]
+primaryColor="#1565C0"
+backgroundColor="#6ba4daff"
+secondaryBackgroundColor="#2777dfff"
+textColor="#212946"
+font="sans serif"
+
+
+st.form_submit_button(" Predict")
+st.download_button("⬇️ Download CSV", ...)
+st.download_button("📄 Download Report (PDF)", ...)
